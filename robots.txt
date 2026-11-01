@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /journeys
+
+Sitemap: https://travel.thienhang.com/sitemap.xml
