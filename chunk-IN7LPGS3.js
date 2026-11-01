@@ -1,0 +1,1 @@
+function o(t){let e=t?.error,r=e?.detail;return typeof r=="string"&&r!=="Not Found"?r:Array.isArray(r)&&r[0]?.msg?String(r[0].msg):typeof e?.error=="string"?e.error.replace(/^\d{3}:\s*/,""):""}function s(t){return t?.status===405||t?.status===404&&t?.error?.detail==="Not Found"}export{o as a,s as b};
