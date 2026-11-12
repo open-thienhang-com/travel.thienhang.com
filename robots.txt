@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /journeys
+Disallow: /xem/
+Disallow: /tai-khoan
 
 Sitemap: https://travel.thienhang.com/sitemap.xml
